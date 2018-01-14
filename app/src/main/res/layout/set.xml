@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:src="@drawable/g4"
+        android:id="@+id/im1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="HOW TO USE: \n\n - press mobile networks settings and select network \n\n - press lock 4g only then select LTE / GSM auto then choose LTE only to lock network"
+        android:layout_width="match_parent"
+        android:background="@drawable/radio"
+        android:padding="50dp"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.09"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/im1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
